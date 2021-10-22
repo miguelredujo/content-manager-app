@@ -13,7 +13,9 @@ const Navbar = () => {
       }}
     >
       <Link href="/">
-        <a>content manager</a>
+        <button style={{ padding: "0 24px", backgroundColor: "red" }}>
+          content manager
+        </button>
       </Link>
       <div
         style={{
